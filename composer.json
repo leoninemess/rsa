@@ -1,0 +1,19 @@
+{
+    "name": "leonine/rsa",
+    "description": "php rsa encrypt decrypt lib",
+    "type": "library",
+    "license": "Apache 2.0",
+    "authors": [{
+        "name": "limou",
+        "email": "leonineyu@qq.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leonine\\Rsa\\": "src/Rsa"
+        }
+    }
+}
